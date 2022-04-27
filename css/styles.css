@@ -9947,6 +9947,7 @@ h3 {
   @page {
     size: a3;
   }
+  
   body {
     min-width: 992px !important;
   }
@@ -10580,3 +10581,7 @@ a.csc span:nth-of-type(3) {
     left: 100pt;
     text-align:right
 }
+
+html, body {
+    overflow-x: hidden;
+  }
