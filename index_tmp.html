@@ -48,6 +48,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Noto+Serif+KR&display=swap" rel="stylesheet">
+    <link href="css/jquery-sakura.css" rel="stylesheet" type="text/css">
     <style>
         /*
          #mashead {
@@ -74,6 +75,13 @@
 
 <body id="page-top">
 
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+<script src="js/jquery-sakura.min.js"></script>
+<script>
+$(window).load(function () {
+    $('body').sakura();
+});
+</script>
     
     <div class="top-section parallax-window" data-parallax="scroll" data-image-src="assets/img/bg-masthead.jpg">
         
