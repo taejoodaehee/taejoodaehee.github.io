@@ -10567,3 +10567,16 @@ a.csc span:nth-of-type(3) {
   50%  { opacity: .5; }
   100% { opacity: 1; }
 }
+
+.audio-footer{
+    height:100px; 
+    width: 100%; 
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    left: 100pt;
+    text-align:right
+}
