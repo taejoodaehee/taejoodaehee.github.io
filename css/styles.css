@@ -10421,8 +10421,8 @@ a.csc span:nth-of-type(3) {
   border-bottom: 2px solid gray;
   margin: 0 0 3px 4px;
   
-  width: 16px;
-  height: 16px;
+  width: 25px;
+  height: 25px;
 }
 
 
@@ -10475,24 +10475,24 @@ a.csc span:nth-of-type(3) {
 }
 
 .mouse {
-  height: 42px;
-  width: 24px;
-  border-radius: 14px;
+  height: 60px;
+  width: 35px;
+  border-radius: 20px;
   transform: none;
   border: 2px solid gray;
   top: 170px;
 }
 
 .wheel {
-  height: 5px;
-  width: 2px;
+  height: 10px;
+  width: 4px;
   display: block;
   margin: 5px auto;
   background: gray;
   position: relative;
   
-  height: 4px;
-  width: 4px;
+  height: 5px;
+  width: 5px;
   border: 2px solid gray;
   -webkit-border-radius: 8px;
           border-radius: 8px;
